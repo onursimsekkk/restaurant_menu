@@ -90,22 +90,22 @@ const foodCards = document.querySelector('.main');
 document.addEventListener('DOMContentLoaded', () => {
   let allBtn = document.createElement('button');
   allBtn.appendChild(document.createTextNode("All"));
-  allBtn.className = "btn btn-outline-dark my-btn all"
+  allBtn.className = "btn btn-outline-dark food-btn all"
   buttons.appendChild(allBtn);
 
   let koreaBtn = document.createElement('button');
   koreaBtn.appendChild(document.createTextNode("Korea"));
-  koreaBtn.className = "btn btn-outline-dark my-btn korea"
+  koreaBtn.className = "btn btn-outline-dark food-btn korea"
   buttons.appendChild(koreaBtn);
 
   let jpnBtn = document.createElement('button');
   jpnBtn.appendChild(document.createTextNode("Japan"));
-  jpnBtn.className = "btn btn-outline-dark my-btn japan"
+  jpnBtn.className = "btn btn-outline-dark food-btn japan"
   buttons.appendChild(jpnBtn);
 
   let chinaBtn = document.createElement('button');
   chinaBtn.appendChild(document.createTextNode("China"));
-  chinaBtn.className = "btn btn-outline-dark my-btn china"
+  chinaBtn.className = "btn btn-outline-dark food-btn china"
   buttons.appendChild(chinaBtn);
 
   // Sayfa açıldığında "All" (Ürünlerin hepsini) yükleme
