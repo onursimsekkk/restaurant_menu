@@ -4,5 +4,5 @@ It is a OOP restaurant menu project which is made with filter() and map() method
 
 ---
 
-![project_img](figures/menu_project.PNG)
+![project_img](figures/project_img.PNG)
 
